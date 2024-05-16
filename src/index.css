@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    src: url('./assets/fonts/lemon_milk/LEMONMILK-Medium.otf');
+    font-family: 'LemonMilk';
+    font-weight: 500;
+    font-style: normal;
+}
+
+@layer base {
+    .transition {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero_main {
+        background: url('./assets/images/hero_main.svg') no-repeat;
+    }
+
+    .city_bg {
+        background: url('./assets//images/city.svg') no-repeat center;
+        background-size: cover;
+    }
+}   
