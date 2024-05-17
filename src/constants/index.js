@@ -1,5 +1,8 @@
 import {
-    c1, c2, c3, c4
+    c1, c2, c3, c4,
+    e1,
+    e2,
+    e3
 } from '../assets/images/index'
 
 export const navLinks = [
@@ -18,25 +21,72 @@ export const navLinks = [
     }
 ]
 
+export const iconData = [
+    {
+        title : "We are Creative",
+        img : e1
+    }, {
+        title : "We are Better",
+        img : e2
+    }, {
+        title : "We are Best",
+        img : e3
+    }
+]
+
 export const cardData = [
     {
         title: "Lorem ipsum dolor sit",
         desc: "Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiminim ven",
         img: c1
-    }, 
+    },
     {
         title: "Lorem ipsum dolor sit",
         desc: "Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiminim ven",
         img: c3
-    }, 
+    },
     {
         title: "Lorem ipsum dolor sit",
         desc: "Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiminim ven",
         img: c2
-    }, 
+    },
     {
         title: "Lorem ipsum dolor sit",
         desc: "Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiminim ven",
         img: c4
     }
+]
+
+export const tabData = [
+    {
+        title: "LOREM IPSUM SIT",
+        desc: "Ut enim ad minim veniam, quisostrud exercitation ullacboris nit aliquiminim veniam, quis nostrud exer tation ullamco laboris nisi ut aliqui"
+    },
+    {
+        title: "LOREM IPSUM SIT",
+        desc: "Ut enim ad minim veniam, quisostrud exercitation ullacboris nit aliquiminim veniam, quis nostrud exer tation ullamco laboris nisi ut aliqui"
+    },
+    {
+        title: "LOREM IPSUM SIT",
+        desc: "Ut enim ad minim veniam, quisostrud exercitation ullacboris nit aliquiminim veniam, quis nostrud exer tation ullamco laboris nisi ut aliqui"
+    },
+    {
+        title: "LOREM IPSUM SIT",
+        desc: "Ut enim ad minim veniam, quisostrud exercitation ullacboris nit aliquiminim veniam, quis nostrud exer tation ullamco laboris nisi ut aliqui"
+    },
+]
+
+export const phoneData = [
+    {
+        title: "LOREM IPSUM DOLOR SIT",
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq"
+    },
+    {
+        title: "LOREM IPSUM DOLOR SIT",
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq"
+    },
+    {
+        title: "LOREM IPSUM DOLOR SIT",
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq"
+    },
 ]

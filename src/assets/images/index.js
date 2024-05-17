@@ -10,6 +10,9 @@ import watch from './watch.svg'
 import iphone from './iphone.svg'
 import city from './city.svg'
 import ipad from './ipad.svg'
+import e1 from './e1.svg'
+import e2 from './e2.svg'
+import e3 from './e3.svg'
 
 export {
     hero_main,
@@ -23,5 +26,8 @@ export {
     watch,
     iphone,
     city,
-    ipad
+    ipad,
+    e1,
+    e2,
+    e3
 }
