@@ -21,5 +21,16 @@
     .city_bg {
         background: url('./assets//images/city.svg') no-repeat center;
         background-size: cover;
+        mix-blend-mode: overlay;
     }
+
+    .k {
+        @apply grid grid-cols-[100px_400px]  border-black;
+    }
+
+    input[type="text"] {
+        @apply border-b-2 ml-10 border-gray-300;
+    }
+
+
 }   

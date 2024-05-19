@@ -7,7 +7,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="px-8 py-2">
+        <header className="px-10 py-2 lg:max-w-[80%] mx-auto">
             <nav className="flex justify-between items-center">
                 <div className="flex gap-2 items-center">
                     <img src={circles} width={50} alt="logo" />

@@ -1,5 +1,5 @@
 import { tab, watch, iphone, ipad } from "../assets/images";
-import { cardData, iconData, phoneData, tabData } from "../constants";
+import { cardData, contactInfo, iconData, phoneData, tabData } from "../constants";
 import Button from "../components/Button";
 import Card from "../components/Card";
 import Hero from "../components/Hero";
@@ -41,7 +41,7 @@ export default function Home() {
                     <div className='p-20 bg-btn-orange flex md:items-center md:justify-center gap-10 text-white flex-wrap md:flex-nowrap'>
                         {iconData.map((ele, index) => {
                             return (
-                                <div key={index} className="md:w-[70%] flex flex-col items-center justify-center md:items-start gap-10">
+                                <div key={index} className="md:w-[70%] flex flex-col justify-center md:items-start gap-10">
                                     <img width={75} src={ele.img} alt={ele.index} />
                                     <h1 className="font-bold text-[1.5rem] md:w-1/3">{ele.title}</h1>
                                 </div>
@@ -137,6 +137,52 @@ export default function Home() {
                 <h1 className="text-[3rem] md:text-[5rem] font-bold">THANKS FOR VISIT</h1>
                 <h2 className="text-[2rem] font-bold">STAY IN TOUCH</h2>
                 <p className="lg:w-[50%] text-center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui</p>
+            </section>
+
+            <section className="p-10 lg:max-w-[80%] lg:mx-auto lg:flex lg:justify-between lg:items-center flex-wrap">
+                <div className="flex flex-col order-1 justify-center gap-2">
+                    <h2 className='font-bold'>SAY HELLO !</h2>
+                    <div className='mt-10 k'>
+                        <label htmlFor="">
+                            Name
+                        </label>
+                        <input type="text" />
+                    </div>
+                    <div className='k'>
+                        <label htmlFor="">
+                            Email
+                        </label>
+                        <input type="text" />
+                    </div>
+                    <div className='k'>
+                        <label htmlFor="">
+                            Phone
+                        </label>
+                        <input type="text" />
+                    </div>
+                    <div className='k'>
+                        <label htmlFor="">
+                            Message
+                        </label>
+                        <input type="text" className="mt-10" />
+                    </div>
+                    <Button className={`bg-btn-orange mt-10 text-white`} />
+                </div>
+                <div className="mt-10">
+                    <h1 className='uppercase font-bold'>Lorem ipsum dolor sit amet</h1>
+                    {contactInfo.map((ele, index) => {
+                        return (
+                            <div key={index} className="flex items-center gap-2">
+                                <img src={ele.icon} className="-ml-5" alt={ele.title} />
+                                <div className="flex flex-col justify-center items-start">
+                                    <p>{ele.title}</p>
+                                    <p>{ele.desc}</p>
+                                    {ele.extra && <p>{ele.extra}</p>}
+                                </div>
+                            </div>
+                        )
+                    })}
+                </div>
             </section>
 
         </main>

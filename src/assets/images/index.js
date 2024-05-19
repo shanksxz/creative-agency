@@ -13,6 +13,9 @@ import ipad from './ipad.svg'
 import e1 from './e1.svg'
 import e2 from './e2.svg'
 import e3 from './e3.svg'
+import s1 from './s1.svg'
+import s2 from './s2.svg'
+import s3 from './s3.svg'
 
 export {
     hero_main,
@@ -29,5 +32,8 @@ export {
     ipad,
     e1,
     e2,
-    e3
+    e3,
+    s1,
+    s2,
+    s3
 }

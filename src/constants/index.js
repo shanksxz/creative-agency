@@ -2,7 +2,10 @@ import {
     c1, c2, c3, c4,
     e1,
     e2,
-    e3
+    e3,
+    s1,
+    s2,
+    s3
 } from '../assets/images/index'
 
 export const navLinks = [
@@ -23,14 +26,14 @@ export const navLinks = [
 
 export const iconData = [
     {
-        title : "We are Creative",
-        img : e1
+        title: "We are Creative",
+        img: e1
     }, {
-        title : "We are Better",
-        img : e2
+        title: "We are Better",
+        img: e2
     }, {
-        title : "We are Best",
-        img : e3
+        title: "We are Best",
+        img: e3
     }
 ]
 
@@ -89,4 +92,23 @@ export const phoneData = [
         title: "LOREM IPSUM DOLOR SIT",
         desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq"
     },
+]
+
+export const contactInfo = [
+    {
+        title: "Email",
+        desc: "free@psdfreebies.com",
+        extra: "",
+        icon: s1
+    }, {
+        title: "Call Us!",
+        desc: "+123 456 7890",
+        extra: "+123 456 7890",
+        icon: s2
+    }, {
+        title: "Address",
+        desc: "123, Main Road, New City,",
+        extra: "My Country 123456",
+        icon: s3
+    }
 ]
