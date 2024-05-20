@@ -3,10 +3,10 @@ import Button from "../components/Button";
 
 export default function Hero() {
     return (
-        <section className="h-[100vh] hero_main bg-black text-white flex">
+        <section className="h-[80vh] md:h-[100vh] hero_main bg-black text-white flex">
             <div className="hidden lg:block w-1/2"></div>
             <div className="lg:w-1/2 p-10 text-left flex flex-col items-start justify-center">
-                <h1 className="text-[4rem] md:text-[8rem] leading-none font-semibold font-montserrat capitalize">
+                <h1 className="h1 leading-none font-semibold font-montserrat capitalize">
                     WE ARE
                     CREATIVE
                     AGENCY

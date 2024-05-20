@@ -26,9 +26,9 @@ export default function Navbar() {
 
                 {/* Mobile Nav */}
                 <img onClick={(e) => setIsOpen((prev) => !prev)} src={menu} width={50} alt="menu-bar" className='hover:cursor-pointer md:hidden' />
-                <div className={`px-8 py-6 md:hidden absolute left-0 top-[5.5rem] w-full h-full bg-white ${isOpen ? 'h-[250px] left-0 opacity-100' : 'h-0 -left-20 opacity-0'}`}>
+                <div className={`px-12 py-6 md:hidden absolute left-0 top-16 w-full h-full bg-white ${isOpen ? 'h-[250px] left-0 opacity-100' : 'h-0 -left-20 opacity-0'}`}>
                     {isOpen &&
-                        <ul className='flex flex-col font-medium gap-2'>
+                        <ul className='flex flex-col font-medium gap-5'>
                             {navLinks.map((link, index) => (
                                 <li key={index} className='hover:cursor-pointer'>{link.name}</li>
                             ))}

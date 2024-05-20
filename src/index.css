@@ -25,11 +25,19 @@
     }
 
     .k {
-        @apply grid grid-cols-[100px_400px]  border-black;
+        @apply md:grid md:grid-cols-[100px_400px]  border-black;
     }
 
-    input[type="text"] {
+    input[type="text"] {    
         @apply border-b-2 ml-10 border-gray-300;
+    }
+
+    .h1 {
+        font-size: clamp(2rem, 8vw, 5rem);
+    }
+
+    .h2 {
+        font-size: clamp(1.5rem, 4vw, 3rem);
     }
 
 
