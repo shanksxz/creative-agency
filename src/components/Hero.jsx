@@ -12,10 +12,31 @@ export default function Hero() {
                     AGENCY
                 </h1>
                 <p className="mt-10 md:w-2/3">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam nisi reiciendis consectetur. Quam quidem velit delectus ipsam amet eum reprehenderit corrupti maiores dolor sequi laboriosam, porro nesciunt quo saepe laborum.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Quibusdam nisi reiciendis consectetur. Quam quidem velit delectus
+                     ipsam amet eum reprehenderit corrupti maiores dolor sequi laboriosam,
+                      porro nesciunt quo saepe laborum.
                 </p>
                 <Button className={`bg-btn-orange mt-10 text-white`} />
             </div>
         </section>
     )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

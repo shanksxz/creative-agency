@@ -17,16 +17,17 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div>
-                    <ul className="hidden md:flex gap-6 font-bold">
+                    <ul className="hidden md:flex gap-6 font-bold"> 
                         {navLinks.map((link, index) => (
                             <li key={index} className='hover:cursor-pointer'>{link.name}</li>
                         ))}
                     </ul>
                 </div>
-
-                {/* Mobile Nav */}
-                <img onClick={(e) => setIsOpen((prev) => !prev)} src={menu} width={50} alt="menu-bar" className='hover:cursor-pointer md:hidden' />
-                <div className={`px-12 py-6 md:hidden absolute left-0 top-16 w-full h-full bg-white ${isOpen ? 'h-[250px] left-0 opacity-100' : 'h-0 -left-20 opacity-0'}`}>
+                <img onClick={(e) => setIsOpen((prev) => !prev)} src={menu} width={50} alt="menu-bar" 
+                    className='hover:cursor-pointer md:hidden' />
+                <div 
+                    className={`px-12 py-6 md:hidden absolute left-0 top-16 w-full h-full bg-white 
+                    ${isOpen ? 'h-[250px] left-0 opacity-100' : 'h-0 -left-20 opacity-0'}`}>
                     {isOpen &&
                         <ul className='flex flex-col font-medium gap-5'>
                             {navLinks.map((link, index) => (

@@ -1,11 +1,5 @@
 import {
-    c1, c2, c3, c4,
-    e1,
-    e2,
-    e3,
-    s1,
-    s2,
-    s3
+    c1, c2, c3, c4, e1, e2, e3, s1, s2,s3
 } from '../assets/images/index'
 
 export const navLinks = [
